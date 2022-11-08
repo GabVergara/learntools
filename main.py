@@ -60,4 +60,5 @@ ax = y.plot(**plot_params, alpha=0.5, title="Average Sales", ylabel="items sold"
 ax = y_pred.plot(ax=ax, linewidth=3, label="Trend", color='C0')
 ax = y_fore.plot(ax=ax, linewidth=3, label="Trend Forecast", color='C3')
 ax.legend()
-plt.show()
+#plt.show()
+print(y_fore)
